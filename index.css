@@ -1,0 +1,76 @@
+#header-title {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+}
+
+@media only screen and (max-device-width: 650px) {
+    header {
+        font-size: 500%;
+        background-image: linear-gradient(rgb(182, 108, 243), white);
+    }
+
+    .header-image {
+        width: 100px;
+    }
+
+    #header-title {
+        margin-bottom: 0;
+
+    }
+
+    .header-break-line {
+        margin: auto;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .home-gallery-wrapper {
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        /* width: 80%; */
+        /* margin */
+    }
+
+    .home-gallery-image {
+        border-radius: 5%;
+            width: 15px;
+            padding: 10px;
+            display: flex; 
+            flex-basis: calc(50% - 40px);  
+            justify-content: space-evenly;
+            flex-direction: column;
+            
+          /*   display: flex; */
+            justify-content: center;
+            flex-direction: row;
+          
+    }
+
+    .social-media-icons-wrapper {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(white, rgb(182, 108, 243)) ;
+    }
+    
+    .social-media-icons {
+        padding-top: 100px;
+        padding-bottom: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+        /* margin-bottom: 100px; */
+        margin: 0;
+
+        width: 120px;
+    }
+
+    .footer-text {
+        margin: 0;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 12px;
+        background-color: rgb(182, 108, 243);
+    }
+}
