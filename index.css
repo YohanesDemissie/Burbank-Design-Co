@@ -25,7 +25,7 @@
     }
 
     .home-gallery-wrapper {
-        min-height: 100%;
+        min-height: 75%;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
