@@ -15,7 +15,6 @@
 
     #header-title {
         margin-bottom: 0;
-
     }
 
     .header-break-line {
@@ -25,39 +24,14 @@
     }
 
     .home-gallery-wrapper {
-        /* SPACE EVENLY WITH STRETCHED OUT PHOTOS */
-        /* min-height: 100%;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap-reverse; */
-
-        /* PHOTOS ALL OVER THE PLACE BUT NOT TOP INLINE */
-        /* display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	flex-direction: column;
-	height: 100vw;
-	font-size: 0; 
-    justify-content: center; */
-
-    /* TRYING GRID  */
-
-    display: flex;
-    /* justify-content: center; */
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding: 10px;
-  height: 100vw;
+    	display: flex;
+  	flex-direction: column;
+  	flex-wrap: wrap;
+  	padding: 10px;
+  	height: 100vw;
     }
 
     .home-gallery-image {
-        /* vertical-align: top; */
-        /* border-radius: 5%;
-        width: 250px; 
-        padding: 10px;
-        flex-basis: calc(50% - 40px);   */
-
-
         display: flex;
         width: 30%;
         margin: 10px;
@@ -77,7 +51,6 @@
         padding-right: 30px;
         /* margin-bottom: 100px; */
         margin: 0;
-
         width: 120px;
     }
 
